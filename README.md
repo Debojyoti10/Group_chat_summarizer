@@ -1,19 +1,20 @@
-# Group_chat_summarizer
-This model is used to analyze and summarize group chats.
+```
 # Whatsapp Chat Analyzer and Summarizer
 
 This is a Streamlit-based application for analyzing WhatsApp group chat data. The application allows users to upload their WhatsApp chat data, preprocesses it, and provides various analyses and visualizations to gain insights into the communication patterns within the group.
 
-
-   ```
+```
+```
 
 ## Usage
 
 1. Upload WhatsApp chat data: Click on the "Choose a file" button in the sidebar to upload your WhatsApp chat data in text format.
 
-2. Analysis will be done automatically by the model.
+2. Select user and analyze: Choose a user from the dropdown list to view statistics and visualizations specific to that user. Click the "Show Analysis" button to generate and display insights.
 
-3. Summarize: Click the "Summarize" button to generate a summary based on the selected date range and model. The summary will be displayed below the button.
+3. Date Range and Model Selection: Use the sidebar to select a date range and choose a summarization model from the available options. You can also opt to generate a newsletter intro.
+
+4. Summarize: Click the "Summarize" button to generate a summary based on the selected date range and model. The summary will be displayed below the button.
 
 ### Exporting chat from WhatsApp
 To export your group chat from WhatsApp, follow these steps:
@@ -44,5 +45,4 @@ To export your group chat from WhatsApp, follow these steps:
 - **Summarization:** Allows users to summarize the chat data within a specified date range using different summarization models. The summary can be displayed and saved.
 
 
-
-
+```
